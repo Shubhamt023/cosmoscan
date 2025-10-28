@@ -28,7 +28,7 @@ module Styles = {
       ),
     ]);
   let statusLabel = style([height(`px(8)), width(`px(8))]);
-  let status = status => style([backgroundColor(status ? hex("4520E6") : hex("937EF1"))]);
+  let status = status => style([backgroundColor(status ? hex("c79d4c") : hex("937EF1"))]);
 };
 
 let getDayAgo = days => {

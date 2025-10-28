@@ -1,4 +1,4 @@
-[@bs.module] external bandLogo: string = "./band-blue-circle-logo.png";
+[@bs.module] external bandLogo: string = "./band-logo2.png";
 [@bs.module] external searchIcon: string = "./search-icon.png";
 [@bs.module] external searchGray: string = "./search-gray.svg";
 [@bs.module] external rightArrow: string = "./right-arrow.svg";

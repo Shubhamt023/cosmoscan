@@ -55,14 +55,7 @@ module DesktopRender = {
                 <div className={CssHelper.flexBox(~align=`center, ())}>
                   <img alt="Band Protocol" src=Images.bandLogo className=Styles.bandLogo />
                   <div>
-                    <Text
-                      value="BANDCHAIN"
-                      size=Text.Md
-                      weight=Text.Semibold
-                      nowrap=true
-                      color={theme.textPrimary}
-                      special=true
-                    />
+                   
                     <br />
                     <Text
                       value="CosmoScan"

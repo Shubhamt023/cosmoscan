@@ -38,7 +38,7 @@ type t = {
 
 // Default Colors
 
-let baseBlue = hex("4520E6");
+let baseBlue = hex("c79d4c");
 let lightenBlue = hex("B4A5F5");
 let lightBlue = hex("6A4CEB");
 let darkBlue = hex("3719B8");
@@ -53,7 +53,7 @@ let activeColor = hex("5FD3C8");
 let failColor = hex("E84A4B");
 let warningColor = hex("ffa733");
 
-let footer = hex("1400A5");
+let footer = hex("a57b27ff");
 
 let get: mode_t => t =
   fun

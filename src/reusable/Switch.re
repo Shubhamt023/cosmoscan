@@ -9,7 +9,7 @@ module Styles = {
       left(`zero),
       width(`px(32)),
       height(`px(4)),
-      background(checked ? `hex("4520E6") : `hex("353535")),
+      background(checked ? `hex("c79d4c") : `hex("353535")),
       borderRadius(`px(4)),
     ]);
   let button = (checked, theme: Theme.t) =>

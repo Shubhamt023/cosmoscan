@@ -19,7 +19,7 @@ module Styles = {
   let status =
     fun
     | ValidatorSub.Missed => style([backgroundColor(hex("937EF1"))])
-    | Proposed => style([backgroundColor(hex("4520E6"))])
+    | Proposed => style([backgroundColor(hex("c79d4c"))])
     | Signed => style([backgroundColor(hex("230E81"))]);
 
   let labelBox =
