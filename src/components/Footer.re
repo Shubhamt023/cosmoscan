@@ -7,17 +7,17 @@ module Styles = {
 };
 
 let mapImages = [|
-  [|{j|https://github.com/bandprotocol|j}, Images.githubSvg, "Github"|],
-  [|{j|https://medium.com/bandprotocol|j}, Images.mediumSvg, "Medium"|],
-  [|{j|https://twitter.com/BandProtocol|j}, Images.twitterSvg, "Twitter"|],
-  [|{j|https://t.me/bandprotocol|j}, Images.telegramSvg, "Telegram"|],
-  [|{j|https://discord.com/invite/3t4bsY7|j}, Images.discordSvg, "Discord"|],
+  [|{j||j}, Images.githubSvg, "Github"|],
+  [|{j||j}, Images.mediumSvg, "Medium"|],
+  [|{j||j}, Images.twitterSvg, "Twitter"|],
+  [|{j||j}, Images.telegramSvg, "Telegram"|],
+  [|{j||j}, Images.discordSvg, "Discord"|],
   [|
-    {j|https://coinmarketcap.com/currencies/band-protocol/|j},
+    {j||j},
     Images.coinmarketcapWhiteSvg,
     "CoinMarketCap",
   |],
-  [|{j|https://www.coingecko.com/en/coins/band-protocol|j}, Images.coingeckoSvg, "CoinGecko"|],
+  [|{j||j}, Images.coingeckoSvg, "CoinGecko"|],
 |];
 
 let currentYear = Js.Date.getFullYear(Js.Date.make());
