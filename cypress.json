@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:1234/",
+  "baseUrl": "https://nnscan.org/",
   "pluginsFile": false,
   "fixturesFolder": false,
   "defaultCommandTimeout": 10000,
